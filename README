@@ -1,3 +1,25 @@
 ItemSlider v1.0
 
-Description: this jQuery plugin provides a basic content slider.
+Description
+This jQuery plugin provides a basic, ultra lightweight carousel,
+which is also very flexible, as it allows any type of content to be used.
+
+Usage
+1. Include jQuery and the .css and .js files of the project.
+2. Run the following method on the jQuery object:
+
+$('#item_container').itemslider();
+
+For further details, please consult the example.html file.
+
+Options
+
+1. items_limit: how many items to be shown at the same time (default: 8)
+2. fade_time: the fade in time of appearing items (default: 300ms)
+
+CSS Classes
+
+You can modify the items' style, as well as the left and right buttons.
+
+
+
